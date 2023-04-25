@@ -10,27 +10,21 @@ include_once(G5_THEME_PATH.'/head.php');
     <div class="sub_slide">
         <figure>
         <img src="<?= G5_THEME_URL ?>/img/factory01.jpg" alt="">
-        <h2>공장내부</h2>
-        </figure>
-        <figure>
-        <img src="<?= G5_THEME_URL ?>/img/factory02.jpg" alt="">
-        <h2>작업사진</h2>
         </figure>
         <figure>
         <img src="<?= G5_THEME_URL ?>/img/factory03.jpg" alt="">
-        <h2>작업전경</h2>
+        </figure>
+        <figure>
+        <img src="<?= G5_THEME_URL ?>/img/factory02.jpg" alt="">
         </figure>
         <figure>
         <img src="<?= G5_THEME_URL ?>/img/factory04.jpg" alt="">
-        <h2>본사</h2>
         </figure>
         <figure>
         <img src="<?= G5_THEME_URL ?>/img/factory05.jpg" alt="">
-        <h2>지사</h2>
         </figure>
         <figure>
         <img src="<?= G5_THEME_URL ?>/img/factory06.jpg" alt="">
-        <h2>공장기계</h2>
         </figure>
     </div>
 </section>

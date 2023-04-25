@@ -232,150 +232,6 @@ h6 {
   color: #fff;
 }
 
-.right_torsion {
-  text-align: center;
-}
-
-.right_torsion .title p {
-  color: #ccc;
-  font-size: 30px;
-  margin-bottom: 10px;
-}
-
-.right_torsion .title h4 {
-  font-size: 50px;
-  font-weight: 600;
-  margin-bottom: 30px;
-}
-.right_torsion .title strong {
-  color: #3e5eff;
-  font-weight: 600;
-}
-
-.right_torsion .title::after {
-  display: block;
-  content: "";
-  background: #3e5eff;
-  width: 150px;
-  height: 1px;
-  margin: 0 auto;
-}
-
-.right_torsion .content ul {
-  display: flex;
-  gap: 80px;
-  justify-content: center;
-  padding: 50px 0;
-}
-
-.right_torsion .content i {
-  color: #333;
-  font-size: 50px;
-  margin-bottom: 10px;
-}
-
-.right_torsion .air_free {
-  height: 500px;
-  background: url("../img/air_free.jpg") no-repeat center center/cover;
-  margin-bottom: 200px;
-}
-
-.right_torsion .torsion_field {
-  position: relative;
-  height: 400px;
-  background: url("../img/torsion_field.jpg") no-repeat center center/cover;
-  filter: grayscale(0.3) brightness(0.8);
-}
-
-.right_torsion .slogan .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  z-index: 1000;
-  transform: translate(-50%, -50%);
-}
-
-.right_torsion .slogan {
-  color: #fff;
-  margin-bottom: 200px;
-}
-
-.right_torsion .slogan h4 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.right_torsion .slogan p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.right_torsion .effect h4 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 100px;
-}
-
-.right_torsion .effect ul {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.right_torsion .effect figure {
-  height: 300px;
-  width: 450px;
-}
-
-.right_torsion .effect ul > li:first-child figure {
-  background: url("../img/effect01.jpg") no-repeat center center/cover;
-}
-
-.right_torsion .effect ul > li:nth-child(2) figure {
-  background: url("../img/effect02.jpg") no-repeat center center/cover;
-}
-
-.right_torsion .effect ul > li:nth-child(3) figure {
-  background: url("../img/effect03.jpg") no-repeat center center/cover;
-}
-
-.right_torsion .effect ul > li:last-child figure {
-  background: url("../img/green.jpg") no-repeat center center/cover;
-}
-
-.right_torsion .effect ul > li {
-  position: relative;
-  display: flex;
-  gap: 100px;
-}
-
-.right_torsion .effect .content {
-  text-align: left;
-  vertical-align: middle;
-}
-
-.right_torsion .effect ul > li strong {
-  position: relative;
-  align-self: center;
-  font-size: 30px;
-  font-weight: 100;
-  margin-bottom: 10px;
-}
-
-.right_torsion .effect ul > li strong::before {
-  display: block;
-  position: absolute;
-  top: -30px;
-  left: -30px;
-  z-index: -999;
-  content: "";
-  width: 30px;
-  height: 30px;
-  background: #ddd;
-  border-radius: 50%;
-}
-
 .productIntro h2 {
   font-size: 30px;
   font-weight: 600;
@@ -801,14 +657,290 @@ h6 {
   width: 250px;
 }
 
+.view .sub_slide {
+  position: relative;
+}
+
+.view .sub_slide figure {
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+.view .sub_slide img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.view .sub_slide h2 {
+  font-size: 25px;
+}
+
+.view .sub_slide .slick-arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  font-size: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-left: 2px solid #fff;
+  border-top: 2px solid #fff;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.view .sub_slide .slick-prev {
+  rotate: -45deg;
+  margin: 0 0 0 -300px;
+}
+
+.view .sub_slide .slick-next {
+  rotate: 135deg;
+  margin: 0 0 0 300px;
+}
+
+.view .sub_slide .slick-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+}
+
+.view .sub_slide .slick-dots li {
+  position: relative;
+  font-size: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.view .sub_slide .slick-dots li::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #ddd;
+}
+
+.view .sub_slide .slick-dots li.slick-active {
+  background: #cf0000;
+}
+
 .content2 h3 {
   display: none;
+}
+
+.right_torsion {
+  text-align: center;
+}
+
+.right_torsion .title p {
+  color: #ccc;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.right_torsion .title h4 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.right_torsion .title strong {
+  color: #3e5eff;
+  font-weight: 600;
+}
+
+.right_torsion .title::after {
+  display: block;
+  content: "";
+  background: #3e5eff;
+  width: 150px;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.right_torsion .content ul {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.right_torsion .content i {
+  color: #333;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.right_torsion .air_free {
+  height: 500px;
+  background: url("../img/air_free.jpg") no-repeat center center/cover;
+  margin-bottom: 200px;
+}
+
+.right_torsion .torsion_field {
+  position: relative;
+  height: 400px;
+  background: url("../img/torsion_field.jpg") no-repeat center center/cover;
+  filter: grayscale(0.3) brightness(0.8);
+}
+
+.right_torsion .slogan .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  transform: translate(-50%, -50%);
+}
+
+.right_torsion .slogan {
+  color: #fff;
+  margin-bottom: 200px;
+}
+
+.right_torsion .slogan h4 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.right_torsion .slogan p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.right_torsion .effect h4 {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.right_torsion .effect ul {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.right_torsion .effect figure {
+  height: 300px;
+  width: 450px;
+}
+
+.right_torsion .effect ul > li:first-child figure {
+  background: url("../img/effect01.jpg") no-repeat center center/cover;
+}
+
+.right_torsion .effect ul > li:nth-child(2) figure {
+  background: url("../img/effect02.jpg") no-repeat center center/cover;
+}
+
+.right_torsion .effect ul > li:nth-child(3) figure {
+  background: url("../img/effect03.jpg") no-repeat center center/cover;
+}
+
+.right_torsion .effect ul > li:last-child figure {
+  background: url("../img/green.jpg") no-repeat center center/cover;
+}
+
+.right_torsion .effect ul > li {
+  position: relative;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+
+.right_torsion .effect .content {
+  text-align: left;
+}
+
+.right_torsion .effect ul > li strong {
+  display: inline-block;
+  position: relative;
+  font-size: 30px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.right_torsion .effect .content p {
+  color: #999;
+}
+
+.right_torsion .effect ul > li strong::before {
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  z-index: -999;
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.ion .title {
+  text-align: center;
+  margin: 30px;
+}
+
+.ion .title p {
+  font-size: 25px;
+  color: #ccc;
+}
+
+.ion .title h4 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.ion .ion_step {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+}
+
+.ion_step figure ~ figure::before {
+  content: "";
+  display: inline-block;
+  margin: 0 30px;
+  background: #ddd;
+  width: 2px;
+  height: 100px;
+}
+
+.ion_step strong {
+  font-weight: 600;
+  display: inline-block;
+  color: #1e254a;
+  padding: 10px 15px;
+  border: 1px solid #1e254a;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .article .shop {
   display: flex;
   gap: 100px;
   align-items: center;
+}
+
+.certificate .certifi_slide img {
+  width: 700px;
+  height: 1000px;
+  object-fit: cover;
+  justify-content: cneter;
 }
 
 .article .shop .product {

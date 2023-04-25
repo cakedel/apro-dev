@@ -11,18 +11,27 @@ include_once(G5_THEME_PATH.'/head.php');
 <figure>
 <img src="<?= G5_THEME_URL ?>/img/air_certificate.jpg" alt="">
 <h4>공기 정화기 특허증</h4>
+</figure>
 <figure>
 <img src="<?= G5_THEME_URL ?>/img/kti_certificate.jpg" alt="">
 <h4>공기 정화기 특허증</h4>
+</figure>
 <figure>
 <img src="<?= G5_THEME_URL ?>/img/ion_certificate.jpg" alt="">
 <h4>공기 정화기 특허증</h4>
+</figure>
 <figure>
 <img src="<?= G5_THEME_URL ?>/img/light_certificate.jpg" alt="">
 <h4>공기 정화기 특허증</h4>
+</figure>
 <figure>
 <img src="<?= G5_THEME_URL ?>/img/ozon_certificate.jpg" alt="">
 <h4>공기 정화기 특허증</h4>
+</figure>
+<figure>
+<img src="<?= G5_THEME_URL ?>/img/ozon_certificate02.jpg" alt="">
+<h4>공기 정화기 특허증</h4>
+</figure>
 <figure>
 <img src="<?= G5_THEME_URL ?>/img/design_certificate.jpg" alt="">
 <h4>공기 정화기 특허증</h4>

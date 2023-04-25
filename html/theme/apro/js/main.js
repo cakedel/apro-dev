@@ -18,10 +18,10 @@ $(function () {
   });
   $(".sub_slide").slick({
     dots: true,
-    centerMode: true,
-    centerPadding: "20px",
   });
-  $(".certifi_slide").slick();
+  $(".certifi_slide").slick({
+    
+  });
   $(window).on("scroll", function () {
     var sct = $(window).scrollTop();
     console.log(sct);
