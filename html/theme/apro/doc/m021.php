@@ -23,19 +23,68 @@ include_once(G5_THEME_PATH.'/head.php');
                     </div>
                     <figure class="air_free">
                     </figure>
-                    <!-- <div class="slogan">                    
-                    <figure class="torsion_field">
-                        <div class="content">
-                        <h4>토션이란</h4>
-                        <p>토션이란 주위 에너지와 상호작용을 하는 특징이 있으며 인체에 긍정적인 영향을 미칩니다</p>                  
-                    </figure>                    
-                    </div>                     -->
-                    <div class="effect">
+</section>
+                    <section class="torsion_filter">
+                        <div class="title">
+                            <p>Anion & Right Torsion System</p>
+                    <h4>필터가 필요없다</h4>
+                        </div>
+                <div class="compare">
+                    <div class="left">
+                        <img src="" alt="">
+                        <p>기존 공기청정기</p>
+                    </div>
+                    <div class="right">
+                        <img src="" alt="">
+                        <p>아프로플러스 공기정화기</p>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>기존 공기청정기는 공기를 흡입한 뒤 필터를 통해 공기를 거르는 방식</p>
+                    <p>
+                        토션플러스에서 방사되는 음이온과 17가지 광물질을 비롯한 우토션 시스템이 실내 공기를 정화하는 방식
+                    </p>
+                </div>
+            </section>
+            <section class="ion">
+                <div class="title">
+                    <p>탁월한 음이온 발생력</p> 
+                    <h4>숲속 공기보다 상쾌하게</h4>
+                </div>
+               <div class="ion_step">
+                <figure>
+                <img src="<?= G5_THEME_URL ?>/img/ion_step1.png" alt="">
+                <div class="content">
+                    <strong>STEP1</strong>
+                    <p>음이온 발생</p>
+                </div>
+                </figure>
+                <figure>
+                <img src="<?= G5_THEME_URL ?>/img/ion_step2.png" alt="">
+                <div class="content">
+                    <strong>STEP2</strong>
+                    <p>유해물질 분해</p>
+                </div>
+                </figure>
+                <figure>
+                <img src="<?= G5_THEME_URL ?>/img/ion_step3.png" alt="">
+                <div class="content">
+                    <strong>STEP3</strong>
+                    <p>청정공기 배출</p>
+                </div>
+                </figure>   
+                </div>
+                <div class="ion_content">
+                    <p>양이온 오염물질을 음이온이 정화시켜주기 때문에 공기정화 효과가 탁월합니다<br>또한 악취나 유해세균, 유해물질을 제거해 각종 세균과 바이러스를 억제, 제거하여 인체 건강을 지켜줍니다</p>
+                </div>
+            </section>
+                    <section class="effect">
                         <h4>토션플러스의 효과</h4>
                         <ul>
                             <li>
                                 <figure>
-                                </figure><div class="content">
+                                </figure>
+                                <div class="content">
                                 <strong>
                             악취, 각종 냄새 제거
                             </strong><p>음식, 담배 냄새, 반려동물 냄새, 새집 냄새와 같은 각종 냄새를 제거합니다</p>
@@ -59,61 +108,22 @@ include_once(G5_THEME_PATH.'/head.php');
                             </strong><p>인체에 해로운 수맥과 전자파를 차단합니다</p>
                                 </div></li>
                         </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="ion">
-                <div class="title">
-                    <p>탁월한 음이온 발생력</p> 
-                    <h4>숲속 공기보다 상쾌하게</h4>
-                </div>
-               <div class="ion_step">
-                <figure>
-                    <img src="" alt="">
-                    <strong>STEP1</strong>
-                    <p>음이온 발생</p>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <strong>STEP2</strong>
-                    <p>유해물질 분해</p>
-                </figure>
-                <figure>
-                    <img src="" alt="">
-                    <strong>STEP3</strong>
-                    <p>청정공기 배출</p>
-                </figure>
-               </div>
-               <div class="exp">
-                <p>오염물질 정화 측정 실험</p>
-                <img src="" alt="">
-               </div>
-            </section>
-            <section class="skill">
-                <h4>뛰어난 기술력과 품질력</h4>
-                <div class="pic">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                </div>
-                <strong>에너지 소비효율 1등급 획득</strong>
-                <p>한국서비스진흥협회로부터 서비스 품질 우수기업인증 획득 2년 무상 품질 보증</p>
-                <p>강력한 공기정화와 환경 기능</p>
-                <p>양이온 오염물질을 음이온이 중화시켜주기 때문에 공기 정화에 효과 최고</p>
-                <p>또한, 악취나 유해세균, 유해물질을 제거해 각종 세균과 바이러스를 억제, 제거하여 인체 건강을 지켜줍니다.</p>
-            </section>
+                    </section>
             <section class="install">
                 <h4>토션플러스 주요설치 공간</h4>
                 <div class="img">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                    <img src="" alt="가정집">
+                    <img src="" alt="사무실">
+                    <img src="" alt="조리실">
+                    <img src="" alt="요양원">
+                    <img src="" alt="교실">
+                    <img src="" alt="유치원">
+                    <img src="" alt="헬스장">
+                    <img src="" alt="병원">
+                    <img src="" alt="회의실">
+                    <img src="" alt="업소(상가)">
+                    <img src="" alt="애견샵">
+                    <img src="" alt="PC방">
                 </div>
             </section>
             <section class="benefit">
@@ -121,17 +131,17 @@ include_once(G5_THEME_PATH.'/head.php');
                 <div class="box">
                     <figure>
                         <strong>지정일배송</strong>
-                        <i class=""></i>
-                        <p>주문 후 2~3일 안으로 예약 지정일 배달 가능</p>
+                        <i class="xi-calendar"></i>
+                        <p>주문 후 2~3일 안으로<br>예약 지정일 배달 가능</p>
                     </figure>
                     <figure>
-                        <strong>폐가전 무료수거</strong>
-                        <i class=""></i>
-                        <p>기존 공기청정기(산간지역제외)</p>
+                        <strong>품질 보증</strong>
+                        <i class="xi-trophy"></i>
+                        <p>2년 간 무상 품질 보증</p>
                     </figure>
                     <figure>
                         <strong>전문가 방문 설치</strong>
-                        <i class=""></i>
+                        <i class="xi-wrench"></i>
                         <p>전문 설치 기사를 통한 배달 서비스</p>
                     </figure>
                 </div>
