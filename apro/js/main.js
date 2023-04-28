@@ -20,7 +20,7 @@ $(function () {
     dots: true,
   });
   $(".certifi_slide").slick({
-    
+    centerMode: true,
   });
   $(window).on("scroll", function () {
     var sct = $(window).scrollTop();

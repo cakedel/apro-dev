@@ -6,20 +6,9 @@ $page_title = '사업소개';
 include '../../../common.php';
 include_once(G5_THEME_PATH.'/head.php');
 ?>
-
-
-
-
-
-
-특허 및 인증서
-
-
-
-
-
-
-
+<section class="map">
+    
+</section>
 <?php
 include_once(G5_THEME_PATH.'/tail.php');
 ?>

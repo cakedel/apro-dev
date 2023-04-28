@@ -29,18 +29,14 @@ include_once(G5_THEME_PATH.'/head.php');
                             <p>Anion & Right Torsion System</p>
                     <h4>필터가 필요없다</h4>
                         </div>
-                        <div class="box">
-                            <div class="product">
-                                <img src="<?= G5_THEME_URL ?>/img/productFrontPng.png" alt="">
-                            </div>
-                        <div class="box_inner">
+    
                         <div class="compare">
                             <div class="left">
                             <img src="<?= G5_THEME_URL ?>/img/no_filter01.jpg" alt="">
                             <p>기존 공기청정기</p>
                             </div>
                             <div class="right">
-                            <img src="<?= G5_THEME_URL ?>/img/no_filter01.jpg" alt="">
+                            <img src="<?= G5_THEME_URL ?>/img/no_filter02.jpg" alt="">
                             <p>아프로플러스 공기정화기</p>
                         </div>
                 </div>
@@ -50,10 +46,7 @@ include_once(G5_THEME_PATH.'/head.php');
                         토션플러스에서 방사되는 음이온과 17가지 광물질을 비롯한 우토션 시스템이 실내 공기를 정화하는 방식
                     </p>
                 </div>
-                        </div>
-                        
-                        </div>
-                
+            </div>    
             </section>
             <section class="ion">
                 <div class="title">
